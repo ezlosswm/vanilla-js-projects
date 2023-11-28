@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>Navbar test</title>
+  </head>
+  <body>
+    <header class="sticky top-0 bg-green-600 shadow-xl">
+      <nav class="max-3xl mx-auto px-6 py-4">
+        <div class="flex h-12 items-center justify-between">
+          <a href="/" class="text-2xl font-bold">
+            <h3>LOGO</h3>
+          </a>
+
+          <button
+            type="button"
+            id="hamburger"
+            class="text-xl transition-all md:hidden"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1em"
+              viewBox="0 0 448 512"
+            >
+              <path
+                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+              />
+            </svg>
+          </button>
+
+          <!-- desktop menu -->
+          <div id="desktop-menu" class="hidden text-lg md:flex">
+            <div class="space-x-7">
+              <a href="#" class="rounded px-3 py-1 hover:bg-green-400">Home</a>
+              <a href="#" class="rounded px-3 py-1 hover:bg-green-400">About</a>
+              <a href="#" class="rounded px-3 py-1 hover:bg-green-400"
+                >Project</a
+              >
+              <a href="#" class="rounded px-3 py-1 hover:bg-green-400"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- mobile menu -->
+        <div
+          id="mobile-menu"
+          class="absolute right-0 w-3/4 origin-right -scale-x-0 overflow-hidden bg-green-600 p-3 duration-500"
+        >
+          <div class="page flex flex-col overflow-hidden">
+            <a href="#" class="rounded px-3 py-1 hover:bg-green-400">Home</a>
+            <a href="#" class="rounded px-3 py-1 hover:bg-green-400">About</a>
+            <a href="#" class="rounded px-3 py-1 hover:bg-green-400">Project</a>
+            <a href="#" class="rounded px-3 py-1 hover:bg-green-400">Contact</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla inventore,
+      eveniet, molestiae autem reprehenderit nobis numquam obcaecati veniam iste
+      possimus modi eos velit quae beatae perspiciatis? Officia, illum voluptas!
+      Debitis. Vero et laboriosam molestiae, beatae illo alias neque in,
+      aliquam, ratione perferendis maiores esse ab optio tempora qui natus
+      adipisci temporibus est tenetur? Quidem harum numquam ipsa, sint
+      voluptates aut? Consequuntur, pariatur? Quis hic sunt eaque. Perspiciatis
+      temporibus voluptatem obcaecati quidem doloremque magni labore corrupti
+      culpa cumque qui soluta architecto, velit repellat? Officiis assumenda
+      quas saepe fuga nobis eligendi amet. Omnis excepturi, iste, aperiam
+      maiores, fugiat corrupti eaque ratione quam reprehenderit magnam
+      voluptatibus? Adipisci eum necessitatibus harum similique rerum explicabo
+      cum consequatur obcaecati reiciendis rem. Facilis vero aliquid inventore
+      sed?
+    </main>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
