@@ -6,3 +6,4 @@ Curated list of small vanilla JS projects.
 | :-: | :-------------: | :------------------------: |
 |  1  | Expense Tracker | [Demo](./expense-tracker/) |
 |  2  |     Navbar      |     [Demo](./navbar/)      |
+|  3  | Form Validator  | [Demo](./form-validator/)  |
